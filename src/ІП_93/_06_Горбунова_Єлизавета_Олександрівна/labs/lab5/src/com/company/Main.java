@@ -19,5 +19,13 @@ public class Main {
             }
             else System.out.println("no person in this place");
         }
+        iterator.toEnd();
+        while (iterator.hasPrev()) {
+            Person person = iterator.prev();
+            if (person != null) {
+                System.out.println(person.name + "'s passport ID is " + person.getPassport());
+            }
+            else System.out.println("no person in this place");
+        }
     }
 }

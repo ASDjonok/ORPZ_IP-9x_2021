@@ -28,13 +28,17 @@ public class PeopleInQueueToGetPassportIterator implements Iterator{
     @Override
     public Person prev() {
         Person person = this.queue.get(index);
+        while (person == null && index > 0) {
+            index--;
+            person = this.queue.get(index);
+        }
         index--;
         return person;
     }
 
     @Override
     public  boolean hasPrev(){
-        if (index > 0) return true;
+        if (index >= 0) return true;
         else return false;
     }
 
