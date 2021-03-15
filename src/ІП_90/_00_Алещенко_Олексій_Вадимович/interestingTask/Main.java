@@ -1,4 +1,4 @@
-package ІП_90._00_Алещенко_Олексій_Вадимович.lab4.interestingTask;
+package ІП_90._00_Алещенко_Олексій_Вадимович.interestingTask;
 
 import java.util.function.Supplier;
 
