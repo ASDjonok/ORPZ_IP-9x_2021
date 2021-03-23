@@ -1,27 +1,25 @@
 package ІП_93._20_Стронов_Іван_Сергійович.labs.lab6;
 
-import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.containers.IntContainer;
-import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.containers.StringContainer;
+import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.containers.MyInt;
+import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.containers.MyString;
+import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.containers.SortingContainer;
+import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.strategies.BubbleSort;
+import ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.strategies.QuickSort;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Sort strategy1 = obj -> obj.sort((a, b) -> a.toString().compareTo(b.toString()));
-        Sort strategy2 = obj -> obj.sort((a, b) -> a.toString().length() - b.toString().length());
+        var sortingContainer = new SortingContainer();
+        MyString[] strings = { new MyString("c"), new MyString("a"), new MyString("b") };
+        MyInt[] ints = { new MyInt(3), new MyInt(1), new MyInt(2) };
 
-        StringContainer str = new StringContainer();
-        str.add("bc"); str.add("abc"); str.add("c");
+        sortingContainer.sortingStrategy = new BubbleSort();
+        sortingContainer.objectsToSort = ints;
+        System.out.println(Arrays.toString(sortingContainer.sort()));
 
-        IntContainer num = new IntContainer();
-        num.add(100); num.add(20); num.add(3);
-
-        str.sortingStrategy = strategy1;
-        num.sortingStrategy = strategy1;
-        System.out.println(str.sort());
-        System.out.println(num.sort());
-
-        str.sortingStrategy = strategy2;
-        num.sortingStrategy = strategy2;
-        System.out.println(str.sort());
-        System.out.println(num.sort());
+        sortingContainer.sortingStrategy = new QuickSort();
+        sortingContainer.objectsToSort = strings;
+        System.out.println(Arrays.toString(sortingContainer.sort()));
     }
 }

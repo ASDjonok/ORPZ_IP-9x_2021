@@ -6,8 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b416e29-9ac3-4d1d-b2a9-8ae097ea897a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ІП_90/_00_Алещенко_Олексій_Вадимович/interestingTask/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/MyInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/MyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/strategies/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/strategies/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/strategies/SortingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/IntContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/StringContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/SortingContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/IntContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ІП_93/_20_Стронов_Іван_Сергійович/labs/lab6/containers/StringContainer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +86,7 @@
       <recent name="C:\workspace\ORPZ_IP-9x_2021\src\ІП_93\06_Горбунова_Єлизавета_Олександрівна" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.lab4.lab3.decorator.src.com.company.Main" />
       <module name="ORPZ_IP-9x_2021" />
@@ -99,6 +114,19 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.Main" />
+      <module name="ORPZ_IP-9x_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.Main" />
       <module name="ORPZ_IP-9x_2021" />
       <extension name="coverage">
@@ -150,6 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -168,7 +197,10 @@
       <workItem from="1614236009507" duration="10364000" />
       <workItem from="1615391500966" duration="9277000" />
       <workItem from="1615809580901" duration="15000" />
-      <workItem from="1615809611967" duration="85000" />
+      <workItem from="1615809611967" duration="625000" />
+      <workItem from="1616061292047" duration="1920000" />
+      <workItem from="1616235888709" duration="48000" />
+      <workItem from="1616512518072" duration="3593000" />
     </task>
     <task id="LOCAL-00001" summary="add lab4">
       <created>1613642465984</created>
@@ -198,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615395599421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added implementation of task with parameter">
+      <created>1615809776219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615809776219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +267,8 @@
     <MESSAGE value="update lab4" />
     <MESSAGE value="add student's labs" />
     <MESSAGE value="add anonymous classes (Comparators)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add anonymous classes (Comparators)" />
+    <MESSAGE value="Added implementation of task with parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added implementation of task with parameter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
