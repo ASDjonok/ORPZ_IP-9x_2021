@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.ToIntFunction;
 
 public class Main {
     public static void main(String[] args/*, List list1*/) throws CloneNotSupportedException {
@@ -76,19 +78,33 @@ public class Main {
 
 //        Arrays.sort(seaBoats);
         System.out.println(Arrays.toString(seaBoats));
-        Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
+        /*ToIntFunction<SeaBoat> getCruisingSpeed1 = SeaBoat::getCruisingSpeed;
+        ToIntFunction<SeaBoat> getCruisingSpeed3 = a -> a.getCruisingSpeed();
+        Function<SeaBoat, Integer> getCruisingSpeed2 = SeaBoat::getCruisingSpeed;
+        Comparator<SeaBoat> comparator0 = Comparator.comparingInt(getCruisingSpeed1);
+        Comparator<SeaBoat> comparator = (o1, o2) -> o1.getCruisingSpeed() - o2.getCruisingSpeed();
+        Comparator<SeaBoat> comparator2 = new Comparator<SeaBoat>() {
             @Override
             public int compare(SeaBoat o1, SeaBoat o2) {
                 return o1.getCruisingSpeed() - o2.getCruisingSpeed();
             }
-        });
-        System.out.println(Arrays.toString(seaBoats));
-        Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
+        };*/
+        Arrays.sort(seaBoats, Comparator.comparingInt(SeaBoat::getCruisingSpeed).thenComparing(SeaBoat::getName));
+//        Arrays.sort(seaBoats, (o1, o2) -> o1.getCruisingSpeed() - o2.getCruisingSpeed());
+        /*Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
             @Override
             public int compare(SeaBoat o1, SeaBoat o2) {
-                return -o1.getName().compareTo(o2.getName());
+                return o1.getCruisingSpeed() - o2.getCruisingSpeed();
             }
-        });
+        });*/
+        System.out.println(Arrays.toString(seaBoats));
+        Arrays.sort(seaBoats, new NameComparator().reversed());
+        /*Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
+            @Override
+            public int compare(SeaBoat o1, SeaBoat o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+        }.reversed());*/
         System.out.println(Arrays.toString(seaBoats));
 
         /*MyInterface myInterface = new SeaBoatHeir(1, 1, "A");
