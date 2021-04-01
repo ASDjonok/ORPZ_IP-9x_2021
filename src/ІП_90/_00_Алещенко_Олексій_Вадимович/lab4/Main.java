@@ -77,7 +77,7 @@ public class Main {
 //        System.out.println(o.equals(seaBoats[1]));
 
 //        Arrays.sort(seaBoats);
-        System.out.println(Arrays.toString(seaBoats));
+//        System.out.println(Arrays.toString(seaBoats));
         /*ToIntFunction<SeaBoat> getCruisingSpeed1 = SeaBoat::getCruisingSpeed;
         ToIntFunction<SeaBoat> getCruisingSpeed3 = a -> a.getCruisingSpeed();
         Function<SeaBoat, Integer> getCruisingSpeed2 = SeaBoat::getCruisingSpeed;
@@ -89,7 +89,15 @@ public class Main {
                 return o1.getCruisingSpeed() - o2.getCruisingSpeed();
             }
         };*/
-        Arrays.sort(seaBoats, Comparator.comparingInt(SeaBoat::getCruisingSpeed).thenComparing(SeaBoat::getName));
+        Arrays.sort(seaBoats,
+                Comparator
+                        .comparingInt(SeaBoat::getCruisingSpeed)
+                        .thenComparing(
+                                Comparator
+                                        .comparing(SeaBoat::getName)
+                                        .reversed()
+                        )
+        );
 //        Arrays.sort(seaBoats, (o1, o2) -> o1.getCruisingSpeed() - o2.getCruisingSpeed());
         /*Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
             @Override
@@ -97,7 +105,10 @@ public class Main {
                 return o1.getCruisingSpeed() - o2.getCruisingSpeed();
             }
         });*/
-        System.out.println(Arrays.toString(seaBoats));
+//        System.out.println(Arrays.toString(seaBoats));
+        for (SeaBoat seaBoat : seaBoats) {
+            System.out.println(seaBoat);
+        }
         Arrays.sort(seaBoats, new NameComparator().reversed());
         /*Arrays.sort(seaBoats, new Comparator<SeaBoat>() {
             @Override
@@ -105,7 +116,7 @@ public class Main {
                 return o1.getName().compareTo(o2.getName());
             }
         }.reversed());*/
-        System.out.println(Arrays.toString(seaBoats));
+//        System.out.println(Arrays.toString(seaBoats));
 
         /*MyInterface myInterface = new SeaBoatHeir(1, 1, "A");
         System.out.println("int = " + myInterface.getInt());
