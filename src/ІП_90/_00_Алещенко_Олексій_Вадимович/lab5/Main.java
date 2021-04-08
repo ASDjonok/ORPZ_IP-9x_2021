@@ -1,0 +1,9 @@
+package ІП_90._00_Алещенко_Олексій_Вадимович.lab5;
+
+public class Main {
+    public static void main(String[] args) {
+        String textString = "Hello, world! I am program.";
+//        System.out.println("Hello world! \\I am program.");
+        Text text = new Text(textString);
+    }
+}
