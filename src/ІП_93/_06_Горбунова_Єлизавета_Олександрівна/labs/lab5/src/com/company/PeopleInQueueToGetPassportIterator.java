@@ -12,8 +12,7 @@ public class PeopleInQueueToGetPassportIterator implements Iterator{
     public Person next() {
         Person person = this.queue.get(index);
         while (person == null && index < this.queue.size() - 1) {
-            index++;
-            person = this.queue.get(index);
+            person = this.queue.get(++index);
         }
         index++;
         return person;
@@ -21,16 +20,14 @@ public class PeopleInQueueToGetPassportIterator implements Iterator{
 
     @Override
     public  boolean hasNext(){
-        if (index < queue.size()) return true;
-        else return false;
+        return index < queue.size();
     }
 
     @Override
     public Person prev() {
         Person person = this.queue.get(index);
         while (person == null && index > 0) {
-            index--;
-            person = this.queue.get(index);
+            person = this.queue.get(--index);
         }
         index--;
         return person;
@@ -38,8 +35,7 @@ public class PeopleInQueueToGetPassportIterator implements Iterator{
 
     @Override
     public  boolean hasPrev(){
-        if (index >= 0) return true;
-        else return false;
+        return index >= 0;
     }
 
     @Override
