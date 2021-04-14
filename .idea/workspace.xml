@@ -6,20 +6,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b416e29-9ac3-4d1d-b2a9-8ae097ea897a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/BuildCastleVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/ConcretePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/DisbandVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/GameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Swordsmen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/ChainOfResponsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/ChainOfResponsibility/HandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/ChainOfResponsibility/HandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/ChainOfResponsibility/HandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/ChainOfResponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/StrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab6Other/Strategy/StrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Commit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Rollback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Command/TransactionStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Interpreter/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Interpreter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Interpreter/NonterminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Memento/ConcreteOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/Memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/State/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/State/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/State/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/State/StateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab7/State/StateB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ORPZ_IP-9x_2021/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/lab4/lab5/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab5/src/com/company/PeopleInQueueToGetPassportIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ІП_93/_06_Горбунова_Єлизавета_Олександрівна/labs/lab5/src/com/company/PeopleInQueueToGetPassportIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +84,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -75,6 +98,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +107,7 @@
       <recent name="C:\workspace\ORPZ_IP-9x_2021\src\ІП_93\06_Горбунова_Єлизавета_Олександрівна" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.lab4.lab3.decorator.src.com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Main" />
       <module name="ORPZ_IP-9x_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.lab4.lab3.decorator.src.com.company.*" />
+          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.Main" />
+      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Command.Main" />
       <module name="ORPZ_IP-9x_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ІП_93._20_Стронов_Іван_Сергійович.labs.lab6.*" />
+          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +148,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab6.Main" />
+      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.State.Main" />
       <module name="ORPZ_IP-9x_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab6.*" />
+          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.State.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +160,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ІП_90._00_Алещенко_Олексій_Вадимович.lab4.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Memento.Main" />
       <module name="ORPZ_IP-9x_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Interpreter.Main" />
+      <module name="ORPZ_IP-9x_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ІП_93._06_Горбунова_Єлизавета_Олександрівна.labs.lab7.Interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,10 +201,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
