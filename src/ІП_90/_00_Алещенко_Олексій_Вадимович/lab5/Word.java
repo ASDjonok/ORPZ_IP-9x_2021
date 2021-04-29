@@ -2,7 +2,7 @@ package ІП_90._00_Алещенко_Олексій_Вадимович.lab5;
 
 import java.util.Arrays;
 
-public class Word implements SentenceElement {
+public class Word /*implements SentenceElement*/ {
 //    todo!! change field
 //    private String wordString;
     private Letter[] letters;
@@ -23,6 +23,17 @@ public class Word implements SentenceElement {
             wordStringBuilder.append(letter.toString());
         }
 
-        return wordStringBuilder.append(' ').toString();
+        return wordStringBuilder/*.append(' ')*/.toString();
     }
+
+    /*@Override
+    public Word getWord() {
+        return this;
+    }
+
+    @Override
+    public void setWord(Word word) {
+//        todo clone?
+        letters = word.letters;
+    }*/
 }

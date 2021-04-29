@@ -1,9 +1,8 @@
 package ІП_90._00_Алещенко_Олексій_Вадимович.lab5;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
+//        String textString = "Hello, \"world\"! I am program.";
         String textString = "Hello, world! I am program.";
 
 
@@ -20,6 +19,10 @@ public class Main {
 //        System.out.println("Hello world! \\I am program.");
         Text text = new Text(textString);
 
-        System.out.println(text);
+        System.out.println("Original text:\n" + text);
+
+        text.swapFirstAndLastWordsInSentences();
+
+        System.out.println("Text after swapping:\n" + text);
     }
 }

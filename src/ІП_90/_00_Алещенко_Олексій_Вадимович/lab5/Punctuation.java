@@ -1,6 +1,6 @@
 package ІП_90._00_Алещенко_Олексій_Вадимович.lab5;
 
-public class Punctuation implements SentenceElement {
+public class Punctuation /*implements SentenceElement*/ {
 //    todo think about name of the field
     private String symbols;
 
