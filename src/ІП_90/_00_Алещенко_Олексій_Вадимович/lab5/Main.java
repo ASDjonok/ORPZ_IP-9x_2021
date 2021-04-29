@@ -19,5 +19,7 @@ public class Main {
 //        String[] sentenceElementStrings = sentenceString.split("(?=\\p{Punct}\s?)|\s");
 //        System.out.println("Hello world! \\I am program.");
         Text text = new Text(textString);
+
+        System.out.println(text);
     }
 }

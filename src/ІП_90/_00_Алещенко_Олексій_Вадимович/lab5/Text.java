@@ -22,4 +22,14 @@ public class Text {
 
 //        System.out.println(Arrays.toString(sentenceStrings));
     }
+
+    @Override
+    public String toString() {
+        StringBuilder textStringBuilder = new StringBuilder();
+        for (int i = 0; i < sentences.length /*- 1*/; i++) {
+            textStringBuilder.append(sentences[i].toString())/*.append(' ')*/;
+        }
+//        textStringBuilder.append(sentences[sentences.length - 1].toString());
+        return textStringBuilder.toString();
+    }
 }

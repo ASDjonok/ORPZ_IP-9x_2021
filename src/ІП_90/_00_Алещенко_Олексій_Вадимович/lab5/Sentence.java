@@ -6,7 +6,8 @@ public class Sentence {
     private SentenceElement[] sentenceElements;
 
     public Sentence(String sentenceString) {
-        String[] sentenceElementStrings = sentenceString.split("(?=\\p{Punct}\s?)|\s");
+//        todo "Замінити послідовність табуляцій та пробілів одним пробілом."
+        String[] sentenceElementStrings = sentenceString.split("(?=\\p{Punct})|\\s");
 
         sentenceElements = new SentenceElement[sentenceElementStrings.length];
 
@@ -18,11 +19,23 @@ public class Sentence {
             }
         }
 
-        /*System.out.println(Arrays.toString("a;b;c;d".split(";")));
-        System.out.println(Arrays.toString("a;b;c;d".split("(?<=;)")));
-        System.out.println(Arrays.toString("a;b;c;d".split("(?=;)")));
-        System.out.println(Arrays.toString("a;b;c;d".split("((?<=;)|(?=;))")));*/
+//        System.out.println(Arrays.toString("a;b;c;d".split(";")));
+//        System.out.println(Arrays.toString("a;b;c;d".split("(?<=;)")));
+        /*System.out.println(Arrays.toString("a;b;c;d".split("(?=;)")));
+        System.out.println(Arrays.toString("a;b;c;d".split("((?<=;)|(?=;))")));
 
-//        System.out.println(Arrays.toString(sentenceElementStrings));
+        System.out.println(Arrays.toString(sentenceElementStrings));*/
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sentenceStringBuilder = new StringBuilder();
+
+        for (SentenceElement sentenceElement : sentenceElements) {
+//            todo fix spaces
+            sentenceStringBuilder.append(sentenceElement.toString());
+        }
+
+        return sentenceStringBuilder.toString();
     }
 }

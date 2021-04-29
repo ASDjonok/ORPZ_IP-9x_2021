@@ -8,4 +8,9 @@ public class Punctuation implements SentenceElement {
     public Punctuation(String symbols) {
         this.symbols = symbols;
     }
+
+    @Override
+    public String toString() {
+        return symbols + ' ';
+    }
 }
