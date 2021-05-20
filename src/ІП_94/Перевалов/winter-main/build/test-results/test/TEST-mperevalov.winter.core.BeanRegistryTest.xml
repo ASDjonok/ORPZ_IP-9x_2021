@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mperevalov.winter.core.BeanRegistryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-19T21:48:57" hostname="DESKTOP-67REVJ7" time="0.012">
+  <properties/>
+  <testcase name="shouldRegisterAllBeanDefinitions()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.002"/>
+  <testcase name="shouldPutSingleton()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.001"/>
+  <testcase name="shouldFindAllBeanDefinitionsWhereTypeIsAssignableFormOfBeanInterface()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.001"/>
+  <testcase name="shouldRegisterBeanDefinition()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionIfSeveralPrimaryDefinitions()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.003"/>
+  <testcase name="shouldGetPrimaryBeanDefinition()" classname="mperevalov.winter.core.BeanRegistryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

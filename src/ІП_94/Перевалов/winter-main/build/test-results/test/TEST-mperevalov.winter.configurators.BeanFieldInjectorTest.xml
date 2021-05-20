@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mperevalov.winter.configurators.BeanFieldInjectorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-19T21:48:57" hostname="DESKTOP-67REVJ7" time="0.037">
+  <properties/>
+  <testcase name="shouldInjectByTypeInAnnotatedField()" classname="mperevalov.winter.configurators.BeanFieldInjectorTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
