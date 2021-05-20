@@ -1,0 +1,40 @@
+system/DITest.java
+ system.DITest
+mperevalov/winter/configurators/PropertyFieldInjectorTest.java
+ mperevalov.winter.configurators.PropertyFieldInjectorTest
+ mperevalov.winter.configurators.PropertyFieldInjectorTest$A
+ mperevalov.winter.configurators.PropertyFieldInjectorTest$B
+mperevalov/winter/core/AnnotationBeanDefinitionTest.java
+ mperevalov.winter.core.AnnotationBeanDefinitionTest
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$AbstractBean
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$AnnotatedConstructor
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$ImplBean
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$InterfaceBean
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$ManyBeanConstructorAnnotations
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$ManyConstructors
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$NoBeanAnnotation
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$PrototypePrimary
+ mperevalov.winter.core.AnnotationBeanDefinitionTest$SingletonNotPrimary
+system/B.java
+ system.B
+system/A.java
+ system.A
+mperevalov/winter/configurators/BeanFieldInjectorTest.java
+ mperevalov.winter.configurators.BeanFieldInjectorTest
+ mperevalov.winter.configurators.BeanFieldInjectorTest$A
+ mperevalov.winter.configurators.BeanFieldInjectorTest$B
+mperevalov/winter/core/BeanRegistryTest.java
+ mperevalov.winter.core.BeanRegistryTest
+ mperevalov.winter.core.BeanRegistryTest$Bean1
+ mperevalov.winter.core.BeanRegistryTest$Bean2
+ mperevalov.winter.core.BeanRegistryTest$Bean3
+ mperevalov.winter.core.BeanRegistryTest$Bean4
+ mperevalov.winter.core.BeanRegistryTest$BeanInterface
+ mperevalov.winter.core.BeanRegistryTest$PrimaryInterface
+mperevalov/winter/core/BeanProviderTest.java
+ mperevalov.winter.core.BeanProviderTest
+ mperevalov.winter.core.BeanProviderTest$A
+ mperevalov.winter.core.BeanProviderTest$B
+ mperevalov.winter.core.BeanProviderTest$EmptyConstructor
+ mperevalov.winter.core.BeanProviderTest$ParamsConstructor
+ mperevalov.winter.core.BeanProviderTest$Prototype

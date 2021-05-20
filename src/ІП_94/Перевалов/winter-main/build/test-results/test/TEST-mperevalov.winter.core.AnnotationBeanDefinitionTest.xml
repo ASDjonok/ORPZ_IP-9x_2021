@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mperevalov.winter.core.AnnotationBeanDefinitionTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-19T21:48:57" hostname="DESKTOP-67REVJ7" time="0.036">
+  <properties/>
+  <testcase name="shouldHaveRightConstructorParameters()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.008"/>
+  <testcase name="shouldThrowExceptionIfFewNoAnnotatedConstructors()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveCorrectSuperTypes()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.002"/>
+  <testcase name="shouldThrowExceptionForAbstractClass()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.002"/>
+  <testcase name="shouldBePrototype()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.003"/>
+  <testcase name="shouldBePrimary()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.0"/>
+  <testcase name="shouldHaveOnlyOneBeanConstructorAnnotation()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.002"/>
+  <testcase name="shouldThrowExceptionForInterface()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldUseBeanConstructor()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveBeanAnnotation()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldBeNotPrimary()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveCustomName()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveSingletonScope()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveCorrectName()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.001"/>
+  <testcase name="shouldHaveCorrectType()" classname="mperevalov.winter.core.AnnotationBeanDefinitionTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
